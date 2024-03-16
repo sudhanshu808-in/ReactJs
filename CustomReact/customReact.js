@@ -15,6 +15,7 @@ function customRender(reactElement,mainContainer){
 }
 
 
+//   App()->converts into tree instead we can use that  below code
 
 const reactElement = {
     type : 'a',
