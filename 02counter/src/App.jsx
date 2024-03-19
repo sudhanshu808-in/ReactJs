@@ -5,11 +5,17 @@ import './App.css'
 
 function App() {
   // const [counter, setCounter] = useState(0)
- let [counter,setCounter]=  useState(3)
+ let [counter,setCounter] =  useState(3)
   // let counter=0;
   const  addValue=()=>{
     console.log("clicked",counter);
-  setCounter(counter+1)
+  // setCounter(counter+1)
+
+
+  setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
   }
   const decValue=()=>{
     if(counter>0){
