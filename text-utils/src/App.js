@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
+import About from './components/About';
 function App() {
   return (
    <>
@@ -9,8 +10,8 @@ function App() {
     <Navbar title="logistics" aboutText="Aboutt."/>
     
     <div className="container">
-    <TextForm heading="Enter ypur suggestion"/>
-
+    {/* <TextForm heading="Enter ypur suggestion"/> */}
+      <About/>
     </div>
    </>
   );
